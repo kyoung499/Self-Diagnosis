@@ -13,7 +13,9 @@ const got = require('got');
 const moment = require('moment');
 
 site = 자신의 자가진단 사이트 주소
+
 token = 자신의 자가진단 토큰
+
 day = 주중이면 1-5 주말까지면 0-6 일 0 월 1 ... 토 6
 
 ...
