@@ -21,7 +21,7 @@ async function JGGD(){
         }
 }
 JGGD() //프로그램을 키면 바로 요청이 갑니다. 원하시면 지우셔도 무관합니다.
-job = new CronJob(`00 30 22 * * ${day}`,() => { 
+job = new CronJob(`00 30 7 * * ${day}`,() => { 
             JGGD()
     });
 job.start();
