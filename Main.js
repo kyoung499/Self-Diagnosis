@@ -2,9 +2,9 @@ var {CronJob} = require('cron');
 const got = require('got');
 const moment = require('moment');
 
-site = {자신의 자가진단 사이트}
+site = {https://eduro.sen.go.kr/stv_cvd_co00_000.do?k=YGOQ9fXozUO%2FxzNNtKhfKw%3D%3D}
 token = {자신의 토큰}
-day = {자신이 이용할 요일} 주중에만 이면 1-5 주말까지면 0-7
+day = {1-5} 
 
 yee = `${site}?rtnRsltCode=SUCCESS&qstnCrtfcNoEncpt=${token}&rspns01=1&rspns02=1&rspns07=0&rspns08=0&rspns09=0`
 console.log("==============================================")
